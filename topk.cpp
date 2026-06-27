@@ -13,21 +13,24 @@ void help( vector<int>&ans, vector<int>&sc,int k){
     }
 
     for(auto &p:mp){
-        if(pq.size()>k)pq.pop();
+       
         pq.push({p.second,idx[p.first]});
+         if(pq.size()>k)pq.pop();
     }
 
    k--;
    while(pq.size()){
-       ans[k--]=sc[pq.top().second];
+    cout<<k<<endl;
+       ans[k]=sc[pq.top().second];
        pq.pop();
+       k--;
    }
     
 }
 int main(){
     string x;
     getline(cin,x);
-    cin.ignore();
+   // cin.ignore();
     int k;
     cin>>k;
     stringstream ss(x);
