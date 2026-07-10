@@ -1,5 +1,6 @@
  jab bhi number k bad hum string input krwate h problem aati he use cin.ignore()
 
  revise  getline and take care of all the edge cases
+ revise all the quetions of clock,roman ,binary and all
 
  
