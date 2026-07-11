@@ -36,8 +36,6 @@ public:
         return true;
     }
 };
-
-
 class Solution {
 public:
 
