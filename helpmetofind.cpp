@@ -5,6 +5,7 @@ bool iscontain9(string &s){
     return s.find('9')!=string::npos;
     
 }
+// isdigit is a built-in function in C++ that checks if a character is a digit (0-9). It returns true if the character is a digit, and false otherwise.
 int main(){
   string input;
   getline(cin,input);
@@ -26,7 +27,7 @@ int main(){
                 maxi=max(maxi,stoi(num));
             }
       cout<<maxi;
-      
+
 
 
 }
