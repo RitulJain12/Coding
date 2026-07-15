@@ -3,5 +3,7 @@
  revise  getline and take care of all the edge cases
  revise all the quetions of clock,roman ,binary and all
  revise basic concepts like unsigned long long ,overflow and +2 -1 pattern quetions
+ overflow case and all edge cases
+ swap not swap pattern
 
  
