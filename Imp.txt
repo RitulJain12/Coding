@@ -7,5 +7,17 @@
  swap not swap pattern
  postfix ,prefix evalutions
  bug on sunday how you will fix
+ subarray sum divisible pattern
+ | Type                 |    Size |                                Max Value |
+| -------------------- | ------: | ---------------------------------------: |
+| `unsigned char`      |  1 byte |                                  **255** |
+| `uint8_t`            |  1 byte |                                  **255** |
+| `unsigned short`     | 2 bytes |                               **65,535** |
+| `uint16_t`           | 2 bytes |                               **65,535** |
+| `unsigned int`       | 4 bytes |                 **4,294,967,295 (≈4e9)** |
+| `uint32_t`           | 4 bytes |                        **4,294,967,295** |
+| `unsigned long long` | 8 bytes | **18,446,744,073,709,551,615 (≈1.8e19)** |
+| `uint64_t`           | 8 bytes |           **18,446,744,073,709,551,615** |
+
 
  
