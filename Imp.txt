@@ -19,5 +19,7 @@
 | `unsigned long long` | 8 bytes | **18,446,744,073,709,551,615 (≈1.8e19)** |
 | `uint64_t`           | 8 bytes |           **18,446,744,073,709,551,615** |
 
+Count inversions
+sort 0,1,2 with adjacent swap means count inversions
 
  
